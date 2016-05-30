@@ -1,0 +1,15 @@
+body {
+	background-color: red;
+}
+
+h1, h2 {
+	color: brown;
+	margin: 9px;
+	font-size: 36px;
+
+}
+
+p {
+	color: brown;
+	font-size: 25px;
+}
