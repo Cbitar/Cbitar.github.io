@@ -1,14 +1,14 @@
 body {
-	background-color: red;
+	background-color: ;
 }
 
 h1, h2 {
-	color: brown;
+	color: white;
 	font-size: 36px;
 
 }
 
 p {
-	color: brown;
+	color: white;
 	font-size: 25px;
 }
