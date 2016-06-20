@@ -1,50 +1,41 @@
 @import url(https://fonts.googleapis.com/css?family=Frijole);
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
 @import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-    background-image: url("http://blackhouse.uk.com/images/index-background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: block;
-    height: 90%;
-    width: 100%;
-    position: absolute;
+    font-size:20px;
+    font-family: 'Cabin Sketch', cursive;
 }
-
+section#splash {
+	background-image: url("http://blackhouse.uk.com/images/index-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height:90vh;
+	text-align: center;
+	padding: 5em 0 0;
+}
 h1 {
 	color: rgba(255,255,255,1);
 	text-transform: uppercase;
 	font-size: 20px;
-	text-align: center;
-	font-family: 'Cabin Sketch', cursive;
 	letter-spacing: 0.2em;
 }
 
 #logo > img {
     width: 220px;
-	height: 200px;
 	margin-top: 26px;
-	opacity: 0.7;
-	margin-left: 450px;
+	opacity: 0.9;
     display: block;
-    z-index: 200; 
 }
 
 #gcard > img {
-    width: 100px;
-	height: 75px;
-	margin-right: 3px;
-	margin-top: 0;
-	float: right;
-	padding-top: 5px;
-    padding-right: 3px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-
+    /* width: 100px; */
+    position: fixed;
+    bottom: 3em;
+    right: 0;
 }
 
-.footer {
+footer {
     background-color:#000;
     width: 100%;
     color: #fff;
@@ -57,43 +48,25 @@ h1 {
     height:300px;
     width:100px;
     float:left;
-    padding:5px;*/
+    padding:5px;
+}*/
 
 p {
-	color: rgba(255,255,255,1);
-	font-size: 20px;
-	text-align: justify;
-	font-family: 'Cabin Sketch', cursive;
 	font-weight: black;
-	letter-spacing: .1em;
-	margin-top: 20px;
-	margin-left: 135px;
-	height: 30px;
-	line-height: 28px;
-	padding: 10px;	
+	line-height: 1.2;
 }
-nav.large-nav {
-	background-color: red
-	font-size: 20px;
-	opacity: 0.5;
-}
-
-.container {
-  text-align: justify;
+/*.wrapper {
+    text-align: justify;
     position: relative;
-    width: 100%;
+    width:1200px;
     margin: auto;
     padding: 0 20px;
     box-sizing: border-box;
-    background-attachment: 
-}
+}*/
 
 a {
    color: white;
    text-align: center;
-   font-size: 10px;
-   font-family: 'Cabin Sketch', cursive;
-   letter-spacing: .1em;
    margin-bottom: 0;
 }
 
@@ -101,29 +74,22 @@ a {
 	width: 1100px;
 	height: 900px;
 	margin: 400px 0 50px 1780px;
-	opacity: 0.7;*/
+	opacity: 0.7;
+}*/
 
-	.nav-group {
-		width: auto;
-		min-width: 240px;
-		border: 1px solid #231F20;
-		border-width: 1px 1px 0 1px;
-		padding: 16px;
-	}
+.nav-group {
+	width: auto;
+	min-width: 240px;
+	border: 1px solid #231F20;
+}
 
 li {
 	display: inline-block;
-	font-size: 18px;
 }
 
 ul {
-	color: white;
-	font-size: 16px;
 	text-align: center;
-	font-weight: black 
-	font-style: unset;
+	font-weight: black;
 	list-style-type: none;
-	font-family: 'Cabin Sketch', cursive;
-	letter-spacing: .2em;
 }
 
