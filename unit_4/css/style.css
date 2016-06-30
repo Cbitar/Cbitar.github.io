@@ -8,10 +8,13 @@ body {
 }
 
 header {
+	border: 1px solid black;
+	padding: 20px;
 	text-align: center;
 	opacity: 2em;
 	display: block;
 	background-color: black;
+	text-transform: uppercase;
 }
 
 section#splash {
@@ -20,7 +23,6 @@ section#splash {
 	background-repeat: no-repeat;
 	height:90vh;
 	text-align: center;
-	padding: 2em 0 0;
 	bottom: 14em;
 }
 
@@ -34,10 +36,12 @@ section#splash2 {
 	color: white; 
 }
 
-section#splash h2 h3 {
+section#splash2 h2 h3 {
 	padding-top:7em;
 	margin-top: 3em;
 	color: white;
+	padding: 20px;
+	border: 1px solid black;
 }
 
 section#splash2 img {
@@ -46,21 +50,62 @@ section#splash2 img {
 	margin-top: 0;
 }
 
+section#splash2 button {
+    background-color: #fbb942; /* Green */
+    color: white;
+    padding: 1em 1em 1em 1em;
+    margin-top: 5em;
+    border: 2px solid #f5f5f5;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+    text-align: center;
+}
+
 section#family {
 	height: 90vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image:  url(http://cdn.pcwallart.com/images/los-angeles-wallpaper-1.jpg);
+	/*background-image:  url(http://cdn.pcwallart.com/images/los-angeles-wallpaper-1.jpg);*/
+	display: inline;
+}
+
+/*section#family aside {
+	color: black;
+	float: left;
+}
+*/
+section#family header {
+	padding: 20px;
+	border: 1px solid black;
+	color: white; 
+	letter-spacing: .7em;
 }
 
 section#locations {
 	text-align: right;
 	height: 90vh;
 	display: inline;
-	margin-left: 3em;
+	padding: 20px;
+	border: 1px solid black;
 	background-image: url(http://blackhouse.uk.com/images/contact-tab-1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
+}
+
+section#locations h2 {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: .7em;
+	color: white;
+
+}
+
+section#locations iframe {
+     display: inline;
 }
 
 section#locations a {
@@ -83,16 +128,23 @@ section#catering {
 	background-repeat: no-repeat;
 }
 
+section#catering img {
+	float: left;
+	width: 180px;
+	margin-top: 0;
+}
 section#catering h2 {
-	margin-top: 3em; 
+	margin-top: 3em;
+	text-align: center;
+	letter-spacing: .2em; 
 }
 
 section#catering a {
-     display: block;
+     display: list-item;
      text-decoration: none;
      background-color: #fbb942;
      color: white;
-     padding: 1em 1em 1em;
+     padding: .5em .5em .5em;
      margin: 1em 25em 6em;
      font-weight: bolder; 
 }
@@ -100,7 +152,7 @@ section#catering a {
 section#menu {
 	background-image: url("http://e2ua.com/data/wallpapers/10/WDF_589087.jpg");
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: all background-repeat: repeat-y;
 	color: white;
 	height: 180vh;
 }
@@ -108,8 +160,20 @@ section#menu {
 section#menu h2 {
 	text-align: center;
 	font-weight: bolder;
-    border: 2em;
-    border-color: red;
+    background-color: black;
+    letter-spacing: .8em;
+    padding: 20px;
+	border: 1px solid black;
+}
+
+section#menu h3 {
+     
+}
+
+section#menu img {
+	float: left;
+	width: 180px;
+	margin-top: 0;
 }
 
 h1 {
@@ -138,6 +202,8 @@ footer {
     width: 100%;
     color: #fff;
     display: block;
+    padding: 20px;
+	border: 1px solid black;
 }
 footer a {
 	color:white;
@@ -152,7 +218,12 @@ nav {
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.2em;
-    background-color: black; 
+    background-color: black;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
 }
 
 p {
@@ -169,16 +240,6 @@ p {
     box-sizing: border-box;
 }*/
 
-nav a {
-   color: white;
-   text-align: center;
-   margin-bottom: 0;
-   text-decoration: none;
-   opacity: 6;
-   display: inline-block;
-}
-
-
 /*img {
 	width: 1100px;
 	height: 900px;
@@ -186,15 +247,6 @@ nav a {
 	opacity: 0.7;
 }*/
 
-/*nav-group {
-	width: auto;
-	min-width: 240px;
-	border: 1px solid #231F20;
-}*/
-
-/*li {
-	display: inline-block;
-}*/
 
 ul {
 	text-align: center;
