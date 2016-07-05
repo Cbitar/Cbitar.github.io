@@ -11,8 +11,7 @@ header {
 	border: 1px solid black;
 	padding: 20px;
 	text-align: center;
-	opacity: 2em;
-	display: block;
+	display: inline;
 	background-color: black;
 	text-transform: uppercase;
 }
@@ -34,6 +33,15 @@ section#splash2 {
 	background-size: cover;
 	background-repeat:no-repeat;
 	color: white; 
+}
+
+section#splash2 header {
+	border: 1px solid black;
+	padding: 20px;
+	text-align: center;
+	display: block;
+	background-color: black;
+	text-transform: uppercase;
 }
 
 section#splash2 h2 h3 {
@@ -67,8 +75,13 @@ section#family {
 	height: 90vh;
 	background-size: cover;
 	background-repeat: no-repeat;
-	/*background-image:  url(http://cdn.pcwallart.com/images/los-angeles-wallpaper-1.jpg);*/
-	display: inline;
+	background-image: url("http://e2ua.com/data/wallpapers/10/WDF_589087.jpg");
+}
+section#family img {
+	float: left;
+	width: 180px;
+	margin-top: 0;
+	padding-bottom: 3em;
 }
 
 /*section#family aside {
@@ -86,10 +99,9 @@ section#family header {
 section#locations {
 	text-align: right;
 	height: 90vh;
-	display: inline;
 	padding: 20px;
 	border: 1px solid black;
-	background-image: url(http://blackhouse.uk.com/images/contact-tab-1.png);
+	background-image: url("http://e2ua.com/data/wallpapers/10/WDF_589087.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -101,11 +113,16 @@ section#locations h2 {
 	text-transform: uppercase;
 	letter-spacing: .7em;
 	color: white;
+}
 
+section#locations h3 address {
+	text-align: left;
+	color: white;
 }
 
 section#locations iframe {
-     display: inline;
+     float: left;
+     text-align: left;
 }
 
 section#locations a {
@@ -155,7 +172,12 @@ section#menu {
 	background-repeat: all background-repeat: repeat-y;
 	color: white;
 	height: 180vh;
-}
+	/*width: 280px;
+	float: left;
+	padding: 10px;
+	margin: 10px;*/
+}	
+
 
 section#menu h2 {
 	text-align: center;
@@ -166,9 +188,9 @@ section#menu h2 {
 	border: 1px solid black;
 }
 
-section#menu h3 {
+/*section#menu h3 {
      
-}
+}*/
 
 section#menu img {
 	float: left;
@@ -214,11 +236,13 @@ nav {
     height:300px;
     width:100px;
     padding:5px;
-    display: inline;
+    /*display: inline;*/
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.2em;
     background-color: black;
+    float: left;
+    clear: all;
 }
 
 nav a {

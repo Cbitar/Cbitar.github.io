@@ -5,14 +5,16 @@
 body {
     font-size:20px;
     font-family: 'Cabin Sketch', cursive;
+    color: white;
 }
 
 header {
 	text-align: center;
 	border: 1px black solid;
 	padding: 20px;
-	background-color: #FFED74;
+	background-color: black;
 	text-transform: uppercase;
+	letter-spacing: .3em;
 }
 
 section#splash {
@@ -26,7 +28,7 @@ section#splash {
 }
 
 section#splash header {
-	background-color: #FFE2B8;
+	background-color: black;
 	border: 1px black solid;
 	padding: 20px; 
 }
@@ -222,7 +224,7 @@ h1 {
 }
 
 footer {
-	background-color: #FF957E;
+	background-color: black;
 	border: 1px black solid;
 	padding: 20px;
     /*background-color:#000;
@@ -236,9 +238,10 @@ footer a {
 }
 
 nav {
-	background-color: #E8C66A;
+	background-color: black;
 	border: 1px black solid;
 	padding: 20px;
+	opacity: .5;
     /*line-height:30px;
     height:300px;
     width:100px;
