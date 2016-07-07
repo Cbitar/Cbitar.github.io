@@ -12,34 +12,63 @@ header {
 	text-align: center;
 	border: 1px black solid;
 	padding: 20px;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 1);
 	text-transform: uppercase;
 	letter-spacing: .3em;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
 }
 
 section#splash {
 	background-image: url("http://blackhouse.uk.com/images/gallery/food-and-drink-12.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
-	height:90vh;
+	height:100vh;
 	text-align: center;
 	/*padding: 2em 0 0;*/
 	bottom: 14em;
 }
 
-section#splash header {
+section#splash  {
 	background-color: black;
 	border: 1px black solid;
 	padding: 20px; 
 }
 
-section#splash2 h2 {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px; 
+section#splash2 {
+	background-image: url("http://e2ua.com/data/wallpapers/10/WDF_589087.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
-section#splash h3 {
+section#splash2 h2 {
+	background-color: rgba(0,0,0,1);
+	border: 1px black solid;
+	padding: 20px;
+	text-align: center;
+	letter-spacing: .4em; 
+}
+
+section#splash2 #lefty{
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section#splash2 #righty {
+    background-color: #E55B88;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section#splash2 h3 {
 	padding-top:7em;
 	margin-top: 3em;
 	color: white;
@@ -49,19 +78,6 @@ section#splash2 img {
 	float: left;
 	width: 180px;
 	margin-top: 0;
-}
-
-section#splash2 button {
-    background-color: #fbb942; /* Green */
-    color: white;
-    padding: 1em 1em 1em 1em;
-    margin-top: 5em;
-    border: 2px solid #f5f5f5;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    font-size: 20px;
-    text-align: center;
 }
 
 section#family {
@@ -107,17 +123,52 @@ section#locations {
 	background-repeat: no-repeat;*/
 }
 
+section#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section#left {
+	background-color: violet;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 30%;
+}
+
+section#right {
+	background-color: pink;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 62%;
+}
+
 section#locations h2 {
 	text-align: center;
 	font-weight: bolder;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	color: black;
+}
 
+section#locations div {
+	float: left;
+  width: 50%;
+  height: 6em;
+  outline: 3px solid #222;
+  text-align:center;
+  line-height: 6em;
+  color:#000;
+  background: #fff;
 }
 
 section#locations iframe {
      display: inline;
+     padding: 3em;
+     width: 50%;
+     
 }
 
 section#locations a {
@@ -150,19 +201,24 @@ section#catering img {
 }
 
 section#catering h2 {
-    background-color: #FFED74;
-	border: 1px black solid;
+    background-color: rgba(0,0,0, 0);
+	border: none;
 	padding: 20px;
+	font-size: 1.5em;
+	text-align: center;
+	clear: left;
+	margin-top: 0;
 }
 
 section#catering h3 {
 	margin-top: 3em;
 	text-align: center;
-	letter-spacing: .1em; 
+	letter-spacing: .1em;
+	padding-bottom: 2em; 
 }
 
 section#catering a {
-     display: block;
+     display: inline-block;
      text-decoration: none;
      background-color: #fbb942;
      color: white;
@@ -289,6 +345,16 @@ nav a {
 	min-width: 240px;
 	border: 1px solid #231F20;
 }*/
+
+/*li {
+	display: inline-block;
+}*/
+
+ul {
+	text-align: center;
+	font-weight: black;
+	list-style-type: none;
+}
 
 /*li {
 	display: inline-block;
