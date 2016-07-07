@@ -56,10 +56,21 @@ section#splash2 h2 {
 	letter-spacing: .4em; 
 }
 
-section#splash2 #lefty{
-	background-color: #E582A2;
+article#right {
+	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
-	padding: 20px;
+	padding: 40px;
+	margin: 40px;
+	width: 500px;
+}
+
+aside#left {
+	background-color: rgba(67,57,49,.3);
+	border: 1px black solid;
+	padding: 40px;
+	margin: 40px;
+	width: 500px;
+	float: right;
 }
 
 section#splash2 #righty {
@@ -111,7 +122,7 @@ article {
 }
 
 section#locations {
-	background-color: #FFE2B8;
+	background-image: url("http://blackhouse.uk.com/images/slide-background/chester-1.jpg");
 	border: 1px black solid;
 	padding: 20px;
 	/*text-align: right;
@@ -119,8 +130,9 @@ section#locations {
 	display: inline;
 	margin-left: 3em;
 	background-image: url(http://blackhouse.uk.com/images/contact-tab-1.png);
+	*/
 	background-size: cover;
-	background-repeat: no-repeat;*/
+	background-repeat: no-repeat;
 }
 
 section#two_column {
@@ -150,7 +162,12 @@ section#locations h2 {
 	font-weight: bolder;
 	text-transform: uppercase;
 	letter-spacing: .1em;
-	color: black;
+	margin-top: 1.5em;
+}
+
+section#locations h3 address {
+     text-align: center;
+     margin-top: 1.5em;
 }
 
 section#locations div {
@@ -166,8 +183,9 @@ section#locations div {
 
 section#locations iframe {
      display: inline;
-     padding: 3em;
-     width: 50%;
+     padding: 2em;
+     width: 80%;
+     margin-left: 1em;
      
 }
 
@@ -201,13 +219,13 @@ section#catering img {
 }
 
 section#catering h2 {
-    background-color: rgba(0,0,0, 0);
+    background-color: rgba(0,0,0,0);
 	border: none;
 	padding: 20px;
 	font-size: 1.5em;
 	text-align: center;
-	clear: left;
-	margin-top: 0;
+	margin-top: 1em;
+	margin-right: 5em;
 }
 
 section#catering h3 {
