@@ -1,6 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Frijole);
 @import url(https://fonts.googleapis.com/css?family=Cabin+Sketch);
 @import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre);
+@import url(https://fonts.googleapis.com/css?family=Lato);
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
     font-size:20px;
@@ -118,6 +119,7 @@ section#family h2 {
 	text-align: center;
 	letter-spacing: .3em;
 	text-align: right;
+	border: 1px white solid;
 }
 
 article#fam {
@@ -127,6 +129,9 @@ article#fam {
 	margin: 40px;
 	width: 400px;
 	float: right;
+	text-align: center;
+	letter-spacing: .2em;
+	font-family: 'Lato', sans-serif;
 }
 
 section#family img {
@@ -136,7 +141,13 @@ section#family img {
 }
 
 aside#keenan {
-	float: right;
+	background-color: rgba(67,57,49,.3);
+	border: 1px black solid;
+	padding: 40px;
+	margin: 40px;
+	width: 500px;
+	float: left;
+	/*float: right;*/
 }
 /*
 aside {
