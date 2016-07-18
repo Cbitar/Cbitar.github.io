@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 * { margin:0; padding:0; box-sizing:border-box; }
-@media only screen and (min-width: 320px) and (max-width: 480px)
 
 body {
     font-size:20px;
@@ -61,7 +60,7 @@ section#splash2 h2 {
 	letter-spacing: .4em; 
 }
 
-article#right {
+#right {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -69,7 +68,7 @@ article#right {
 	width: 50%;
 }
 
-article#happyhour {
+#happyhour {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -79,7 +78,7 @@ article#happyhour {
 	float: right;
 }
 
-aside#left {
+#left {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -125,7 +124,7 @@ section#family h2 {
 	border: 1px white solid;
 }
 
-article#fam {
+#fam {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -143,7 +142,7 @@ section#family img {
 	margin-top: 0;
 }
 
-aside#keenan {
+#keenan {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -179,7 +178,7 @@ section#locations {
 	background-repeat: no-repeat;
 }
 
-article#taco {
+#taco {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -187,7 +186,7 @@ article#taco {
 	width: 500px;
 }
 
-aside#smoked {
+#smoked {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -195,7 +194,7 @@ aside#smoked {
 	width: 500px;
 }
 
-section#left {
+#left {
 	background-color: violet;
 	border: 1px black solid;
 	padding: 20px;
@@ -203,7 +202,7 @@ section#left {
 	width: 30%;
 }
 
-section#right {
+#right {
 	background-color: pink;
 	border: 1px black solid;
 	padding: 20px;
@@ -217,7 +216,6 @@ section#locations h2 {
 	text-transform: uppercase;
 	letter-spacing: .3em;
 	margin-top: .5em;
-	clear: all;
 	padding: 20px;
 	border: 1px black solid;
 }
@@ -256,6 +254,12 @@ section#locations img {
 	width: 180px;
 	margin-top: 0;
 }
+section#locations section {
+	width:50%;
+	float:left;
+	background:white;
+}
+section#locations section:first-of-type { clear:both; }
 
 section#catering {
 	background-color: #FFED74;
