@@ -51,8 +51,7 @@ section#splash2 {
 	background-color: #231b19;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height:90vh;
-	bottom: 1em;
+	/* height:90vh; */
 }
 
 section#splash2 h2 {
@@ -86,7 +85,7 @@ section#splash2 h2 {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	display: inline-block;
-	overflow: auto;
+	/* overflow: auto; */
 	line-height: 1.2em;
 }
 
@@ -215,26 +214,18 @@ section#locations h2 {
 
 section#locations address {
      text-align: center;
-     /*margin: -42px;*/
-     padding: 75px;
      font-size: 1.3em;
-     margin-top: 0;
+     margin-top: 1em;
 }
 
 section#locations div {
-	float: left;
-  width: 50%;
-  height: 6em;
-  outline: 3px solid #222;
-  text-align:center;
-  line-height: 6em;
-  color:#000;
-  background: #fff;
+	max-width:1200px;
+	margin:auto;
 }
 
 section#locations h3 {
     /*padding: 20px;*/
-    margin: 41px;
+    /* margin: 41px; */
     text-align: center;
     font-size: 1.7em;
     text-align: center;
@@ -254,7 +245,10 @@ section#locations a {
 	color: white;
 	border: 1px solid #fbb942;
 	padding: 20px;
-	margin-left: 5em;
+	/* margin-left: 5em; */
+	display: block;
+	text-align: center;
+	margin-top: 1em;
 }
 
 section#locations img {
@@ -266,6 +260,7 @@ section#locations section {
 	width:50%;
 	float:left;
 	background-color: rgba(14,8,8,0);
+	padding: 2em;
 }
 section#locations section:first-of-type { clear:both; }
 
@@ -303,7 +298,8 @@ section#catering h3 {
 	text-align: center;
 	letter-spacing: .1em;
 	padding-bottom: 2em;
-	margin-right: 0; 
+	margin-right: 0;
+	clear: both;
 }
 
 section#catering a {
@@ -423,19 +419,19 @@ footer a {
 
 nav {
 	background-color: rgba(0, 0, 0, 0);
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    float: left;
-    width: 100%;
-    text-align: center;
-    word-spacing: 0.2em;
-    border: 1px solid black;
-    margin: 1em;
-    padding: 0.5em;
-    font-size: 1.5em;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	width: 100%;
+	text-align: center;
+	word-spacing: 0.2em;
+	border: 1px solid black;
+	margin: 1em 0;
+	padding: 0.5em;
+	font-size: 1.5em;
 }  
 
 p {
@@ -467,7 +463,7 @@ ul {
 	list-style-type: none;
 }
 
-@media (min-width : 900px) {
+@media (max-width:900px) {
   .menu {
     font-size: 1.2em;
   }
@@ -485,10 +481,7 @@ ul {
   }
 }
 
-@media (min-width : 768px) {
-  .menu {
-    font-size: 1.2em;
-  } 
+@media (max-width:768px) {
 
   #catering h3 {
   	text-align: center;
@@ -502,7 +495,7 @@ ul {
   line-height: 1em;
 
 }
-
+}
 @media (max-width : 380px) {
   #locations a {
   	float: none;
@@ -515,9 +508,3 @@ ul {
   	text-align: center;
   }
  } 
-
-.menu {
-  padding: 0.5em;
-  background: #eee;
-  min-height: 2em;
-  line-height: 1em;
