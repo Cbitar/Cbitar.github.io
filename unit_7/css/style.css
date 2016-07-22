@@ -3,7 +3,6 @@
 @import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 * { margin:0; padding:0; box-sizing:border-box; }
-@media only screen and (min-width: 320px) and (max-width: 480px)
 
 body {
     font-size:20px;
@@ -15,7 +14,7 @@ body {
 header {
 	text-align: center;
 	border: 1px #fbb942 solid;
-	padding: 20px;
+	padding: 1em;
 	background-color: rgba(0, 0, 0, 1);
 	text-transform: uppercase;
 	letter-spacing: .5em;
@@ -28,6 +27,7 @@ header {
 	content: " ";
 	clear: both;
 	height: 0;
+	overflow: auto;
 }
 
 section#splash {
@@ -47,21 +47,28 @@ section#splash  {
 }
 
 section#splash2 {
-	background-image: url("http://e2ua.com/data/wallpapers/10/WDF_589087.jpg");
+	background-image: url("https://www.mcdonalds.com/etc/clientlibs/mcd-us/images/bg-mobile.jpg");
+	background-color: #231b19;
 	background-size: cover;
 	background-repeat: no-repeat;
 	height:90vh;
+	bottom: 1em;
 }
 
 section#splash2 h2 {
-	background-color: rgba(0,0,0,0);
+	background-image: url("http://blackhouse.uk.com/images/slide-background/hale-1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-color: #231b19;
 	border: 1px black solid;
-	padding: 20px;
-	text-align: right;
-	letter-spacing: .4em; 
+	padding: 150px;
+	text-align: center;
+	letter-spacing: .4em;
+	float: left;
+	width: 100%;
 }
 
-article#right {
+#right {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -69,17 +76,37 @@ article#right {
 	width: 50%;
 }
 
-article#happyhour {
+.column {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
-	padding: 40px;
-	margin: 40px;
-	width: 50%;
+	padding: 1em;
+	/*margin: 1em;*/
+	margin-top: 2em;
+	width: 25%;
 	text-transform: uppercase;
-	float: right;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	overflow: auto;
+	line-height: 1.2em;
 }
 
-aside#left {
+
+.column {
+	background-color: rgba(67,57,49,.3);
+	border: 1px black solid;
+	padding: 1em;
+	margin: 1em;
+	width: 25%;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	display: inline-block;
+	overflow: auto;
+	line-height: 1.2em;
+}
+
+#left {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -101,74 +128,71 @@ section#splash2 h3 {
 }
 
 section#splash2 img {
-	float: left;
-	width: 25%;
-	margin-top: 0;
+	width: 100%;
+	margin: .1em;
+    display: block;
+   /* float: left;
+    margin-left: 15em;
+    bottom: 10em;*/
 }
 
-section#family {
-	background-color: #080808;
+section#family {/*
+	background-color: #080808;*/
 	border: 1px black solid;
 	padding: 20px;
-	height: 90vh;
-	/*height: 90vh;
+	height: 100vh;
+	padding-top: .5em;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image:  url(http://cdn.pcwallart.com/images/los-angeles-wallpaper-1.jpg);
-	display: inline;*/
+	background-image:  url("https://www.mcdonalds.com/etc/clientlibs/mcd-us/images/bg-mobile.jpg");
+	
 }
 
 section#family h2 {
-	text-align: center;
-	letter-spacing: .3em;
 	text-align: right;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	margin-top: .4em;
+	padding: 150px;
 	border: 1px white solid;
+	background-image: url("https://s-media-cache-ak0.pinimg.com/474x/ed/cc/97/edcc977f254d86ccd6533b4fd3d21587.jpg");
+	background-size: cover;
+	background-repeat: no-repeat; 
 }
 
-article#fam {
-	background-color: rgba(67,57,49,.3);
+.column {
+	background-color: rgba(48,38,34,.3);
 	border: 1px black solid;
-	padding: 40px;
+	/*padding: 40px;*/
 	margin: 40px;
 	width: 40%;
-	float: right;
+	float: left;
+	padding: 5%;
+	display: inline-block;
 	text-align: center;
 	letter-spacing: .2em;
 	font-family: 'Lato', sans-serif;
 }
 
 section#family img {
-	float: left;
-	width: 25%;
-	margin-top: 0;
+	float: none;
+	width: 30%;
+	padding-left: 3em;
 }
 
-aside#keenan {
-	background-color: rgba(67,57,49,.3);
-	border: 1px black solid;
-	padding: 40px;
-	margin: 40px;
-	width: 500px;
-	float: left;
-	/*float: right;*/
-}
-/*
-aside {
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding: 20px;
+#logofade {
+	width: 100%;
+    z-index: -1;
+    float: left;
+    background-image: url("http://usa.sae.edu/assets/Campuses/Los-Angeles/2015/Los_Angeles_city_view.jpg");
 }
 
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-}*/
 
 section#locations {
 	background-image: url("http://blackhouse.uk.com/images/slide-background/chester-1.jpg");
 	border: 1px black solid;
-	padding: 20px;
+	padding: 0;
 	/*text-align: right;
 	height: 90vh;
 	display: inline;
@@ -177,25 +201,24 @@ section#locations {
 	*/
 	background-size: cover;
 	background-repeat: no-repeat;
+	height: 90vh;
 }
 
-article#taco {
+#smoked {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
 	margin: 40px;
-	width: 500px;
+	width: 25%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em;
+	text-transform: uppercase;
+    float: left;
+    text-align: center;
+    line-height: 1.2em;
 }
 
-aside#smoked {
-	background-color: rgba(67,57,49,.3);
-	border: 1px black solid;
-	padding: 40px;
-	margin: 40px;
-	width: 500px;
-}
-
-section#left {
+#left {
 	background-color: violet;
 	border: 1px black solid;
 	padding: 20px;
@@ -203,7 +226,7 @@ section#left {
 	width: 30%;
 }
 
-section#right {
+#right {
 	background-color: pink;
 	border: 1px black solid;
 	padding: 20px;
@@ -216,15 +239,17 @@ section#locations h2 {
 	font-weight: bolder;
 	text-transform: uppercase;
 	letter-spacing: .3em;
-	margin-top: .5em;
-	clear: all;
+	margin-top: .4em;
 	padding: 20px;
 	border: 1px black solid;
 }
 
-section#locations h3 address {
+section#locations address {
      text-align: center;
-     margin-top: 1.5em;
+     /*margin: -42px;*/
+     padding: 75px;
+     font-size: 1.3em;
+     margin-top: 0;
 }
 
 section#locations div {
@@ -238,24 +263,42 @@ section#locations div {
   background: #fff;
 }
 
-section#locations iframe {
+section#locations h3 {
+    /*padding: 20px;*/
+    /*margin: 41px;*/
+    text-align: center;
+    font-size: 1.7em;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+/*section#locations iframe {
      display: inline;
      padding: 2em;
      width: 80%;
      margin-left: 1em;
      
-}
+}*/
 
 section#locations a {
 	text-decoration: none;
-	color: black;
+	color: white;
+	border: 1px solid #fbb942;
+	padding: 20px;
+	margin-left: 5em;
 }
 
 section#locations img {
 	float: left;
-	width: 180px;
+	width: 15%;
 	margin-top: 0;
 }
+section#locations section {
+	width:50%;
+	float:left;
+	background-color: rgba(14,8,8,0);
+}
+section#locations section:first-of-type { clear:both; }
 
 section#catering {
 	background-color: #FFED74;
@@ -271,7 +314,7 @@ section#catering {
 
 section#catering img {
 	float: left;
-	width: 180px;
+	width: 15%;
 	margin-top: 0;
 }
 
@@ -299,7 +342,7 @@ section#catering a {
      text-decoration: none;
      background-color: #fbb942;
      color: white;
-     padding: .6em .6em .6em;
+     padding: .5em 1em;
      margin: 1em 25em 6em;
      font-weight: bolder; 
 }
@@ -365,11 +408,40 @@ h1 {
     float: right;
 }
 
+section#contact {
+	background-image: url("http://blackhouse.uk.com/images/slide-background/chester-1.jpg");
+	border: 1px black solid;
+	padding: 0;
+	/*text-align: right;
+	height: 90vh;
+	display: inline;
+	margin-left: 3em;
+	background-image: url(http://blackhouse.uk.com/images/contact-tab-1.png);
+	*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 90vh;
+}
+
+#contact h2 {
+    text-align: right;
+	font-weight: bolder;
+	text-transform: uppercase;
+	letter-spacing: .3em;
+	margin-top: .4em;
+	padding: 20px;
+	border: 1px black solid;
+}
+
+#contact p {
+	font-size: 2em;
+	text-align: center;
+}
+
 footer {
 	background-color: black;
 	border: 1px black solid;
 	padding: 20px;
-	position: absolute;
     /*background-color:#000;
     width: 100%;
     color: #fff;
@@ -381,20 +453,21 @@ footer a {
 }
 
 nav {
-	background-color: black;
-	border: 1px black solid;
-	padding: 20px;
-	opacity: .5;
-    /*line-height:30px;
-    height:300px;
-    width:100px;
-    padding:5px;
-    display: inline;
+	background-color: rgba(0, 0, 0, 0);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    float: left;
+    width: 100%;
     text-align: center;
-    text-decoration: none;
-    letter-spacing: 0.2em;
-    background-color: black;*/ 
-}
+    word-spacing: 0.2em;
+    border: 1px solid black;
+    margin: 1em;
+    padding: 0.5em;
+    font-size: 1.5em;
+}  
 
 p {
 	font-weight: black;
@@ -419,38 +492,63 @@ nav a {
    display: inline-block;
 }
 
-
-/*img {
-	width: 1100px;
-	height: 900px;
-	margin: 400px 0 50px 1780px;
-	opacity: 0.7;
-}*/
-
-/*nav-group {
-	width: auto;
-	min-width: 240px;
-	border: 1px solid #231F20;
-}*/
-
-/*li {
-	display: inline-block;
-}*/
-
 ul {
 	text-align: center;
 	font-weight: black;
 	list-style-type: none;
 }
 
-/*li {
-	display: inline-block;
-}*/
-
-ul {
-	text-align: center;
-	font-weight: black;
-	list-style-type: none;
+@media (min-width : 900px) {
+  .menu {
+    font-size: 1.2em;
+  }
+  .column {
+  	float: left;
+    height: 25%;
+    width: 48%;
+    margin: 2px .25%;
+    padding-top: 0.5em;
+  }
+  #catering a {
+    font-size: 22px;
+    font-size: 1.375rem;
+    line-height: 1em;
+  }
 }
 
+@media (min-width : 768px) {
+  .menu {
+    font-size: 1.2em;
+  } 
 
+  #catering h3 {
+  	text-align: center;
+  }
+
+
+.menu {
+  padding: 0.5em;
+  background: #eee;
+  min-height: 2em;
+  line-height: 1em;
+
+}
+
+@media (max-width : 380px) {
+  #locations a {
+  	float: none;
+  	width: auto;
+  	background-color: red;
+   
+  }
+
+  #catering h3 {
+  	text-align: center;
+  }
+ } 
+
+.menu {
+  padding: 0.5em;
+  background: #eee;
+  min-height: 2em;
+  line-height: 1em;
