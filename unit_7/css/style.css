@@ -20,7 +20,7 @@ header {
 	letter-spacing: .5em;
 }
 
-.clearfix:after {
+/*.clearfix:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -28,7 +28,7 @@ header {
 	clear: both;
 	height: 0;
 	overflow: auto;
-}
+}*/
 
 section#splash {
 	background-image: url("http://blackhouse.uk.com/images/gallery/food-and-drink-12.jpg");
@@ -136,8 +136,7 @@ section#splash2 img {
     bottom: 10em;*/
 }
 
-section#family {/*
-	background-color: #080808;*/
+section#family {
 	border: 1px black solid;
 	padding: 20px;
 	height: 100vh;
@@ -148,7 +147,7 @@ section#family {/*
 	
 }
 
-section#family h2 {
+#family h2 {
 	text-align: right;
 	font-weight: bolder;
 	text-transform: uppercase;
@@ -158,7 +157,7 @@ section#family h2 {
 	border: 1px white solid;
 	background-image: url("https://s-media-cache-ak0.pinimg.com/474x/ed/cc/97/edcc977f254d86ccd6533b4fd3d21587.jpg");
 	background-size: cover;
-	background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 .column {
@@ -265,7 +264,7 @@ section#locations div {
 
 section#locations h3 {
     /*padding: 20px;*/
-    /*margin: 41px;*/
+    margin: 41px;
     text-align: center;
     font-size: 1.7em;
     text-align: center;
@@ -377,7 +376,7 @@ section#menu img {
 	margin-top: 0;
 }
 
-.submenu {
+/*.submenu {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 40px;
@@ -385,7 +384,7 @@ section#menu img {
 	width: 500px;
 	text-align: center;
 	float: right;
-}
+}*/
 
 h1 {
 	color: rgba(255,255,255,1);
