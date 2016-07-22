@@ -80,22 +80,6 @@ section#splash2 h2 {
 	background-color: rgba(67,57,49,.3);
 	border: 1px black solid;
 	padding: 1em;
-	/*margin: 1em;*/
-	margin-top: 2em;
-	width: 25%;
-	text-transform: uppercase;
-	text-align: center;
-	font-family: 'Lato', sans-serif;
-	display: inline-block;
-	overflow: auto;
-	line-height: 1.2em;
-}
-
-
-.column {
-	background-color: rgba(67,57,49,.3);
-	border: 1px black solid;
-	padding: 1em;
 	margin: 1em;
 	width: 25%;
 	text-transform: uppercase;
@@ -158,20 +142,6 @@ section#family {
 	background-image: url("https://s-media-cache-ak0.pinimg.com/474x/ed/cc/97/edcc977f254d86ccd6533b4fd3d21587.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
-}
-
-.column {
-	background-color: rgba(48,38,34,.3);
-	border: 1px black solid;
-	/*padding: 40px;*/
-	margin: 40px;
-	width: 40%;
-	float: left;
-	padding: 5%;
-	display: inline-block;
-	text-align: center;
-	letter-spacing: .2em;
-	font-family: 'Lato', sans-serif;
 }
 
 section#family img {
