@@ -3,8 +3,8 @@
 @import url(https://fonts.googleapis.com/css?family=Averia+Serif+Libre);
 @import url(https://fonts.googleapis.com/css?family=Lato);
 * { margin:0; padding:0; box-sizing:border-box; }
-@media only screen and (min-width: 320px) and (max-width: 480px)
-
+/*@media only screen and (min-width: 320px) and (max-width: 480px)
+*/
 body {
     font-size:20px;
     font-family: 'Cabin Sketch', cursive;
@@ -47,9 +47,9 @@ section#splash  {
 }
 
 section#splash2 {
-	background-image: url("http://e2ua.com/data/wallpapers/10/WDF_589087.jpg");
+	/*background-image: url("http://e2ua.com/data/wallpapers/10/WDF_589087.jpg");
 	background-size: cover;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 	height:90vh;
 }
 
@@ -107,7 +107,7 @@ section#splash2 img {
 }
 
 section#family {
-	background-color: #080808;
+	background-color: #1f1f1f;
 	border: 1px black solid;
 	padding: 20px;
 	height: 90vh;

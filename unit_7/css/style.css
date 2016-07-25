@@ -20,6 +20,11 @@ header {
 	letter-spacing: .5em;
 }
 
+.box-shadow-menu {
+	position: relative;
+	padding-left: 1.25em;
+}
+
 /*.clearfix:after {
 	visibility: hidden;
 	display: block;
@@ -43,26 +48,25 @@ section#splash {
 section#splash  {
 	background-color: black;
 	border: 1px black solid;
-	padding: 20px; 
+	padding: 1em; 
 }
 
 section#splash2 {
-	background-image: url("https://www.mcdonalds.com/etc/clientlibs/mcd-us/images/bg-mobile.jpg");
-	background-color: #231b19;
+/*	background-image: url("https://www.mcdonalds.com/etc/clientlibs/mcd-us/images/bg-mobile.jpg");*/
+	background-color: #1f1f1f;
 	background-size: cover;
 	background-repeat: no-repeat;
-	height:90vh;
-	bottom: 1em;
+	/* height:90vh; */
 }
 
 section#splash2 h2 {
-	background-image: url("http://blackhouse.uk.com/images/slide-background/hale-1.jpg");
+	background-image: url("http://blackhouse.uk.com/images/gallery/food-and-drink-1.jpg");/*http://blackhouse.uk.com/images/slide-background/hale-1.jpg*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #231b19;
 	border: 1px black solid;
 	padding: 150px;
-	text-align: center;
+	text-align: right;
 	letter-spacing: .4em;
 	float: left;
 	width: 100%;
@@ -86,8 +90,13 @@ section#splash2 h2 {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	display: inline-block;
-	overflow: auto;
+	/* overflow: auto;*/
 	line-height: 1.2em;
+	/* width: 80%;
+    outline-width: .5em;
+    padding: .5em;
+    height: 2em;
+    line-height: 2em;*/
 }
 
 #left {
@@ -120,18 +129,18 @@ section#splash2 img {
     bottom: 10em;*/
 }
 
-section#family {
+section#about {
 	border: 1px black solid;
 	padding: 20px;
-	height: 100vh;
 	padding-top: .5em;
-	background-size: cover;
+	background-color:#1f1f1f;
+/*	background-size: cover;
 	background-repeat: no-repeat;
-	background-image:  url("https://www.mcdonalds.com/etc/clientlibs/mcd-us/images/bg-mobile.jpg");
+	background-image:  url("https://www.mcdonalds.com/etc/clientlibs/mcd-us/images/bg-mobile.jpg");*/
 	
 }
 
-#family h2 {
+#about h2 {
 	text-align: right;
 	font-weight: bolder;
 	text-transform: uppercase;
@@ -139,12 +148,12 @@ section#family {
 	margin-top: .4em;
 	padding: 150px;
 	border: 1px white solid;
-	background-image: url("https://s-media-cache-ak0.pinimg.com/474x/ed/cc/97/edcc977f254d86ccd6533b4fd3d21587.jpg");
+	background-image: url("http://blackhouse.uk.com/images/gallery/P10278%20Blackhouse%20Food%20234-Final%20Web%20Res%20JPG%201.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
 }
 
-section#family img {
+section#about img {
 	float: none;
 	width: 30%;
 	padding-left: 3em;
@@ -215,26 +224,18 @@ section#locations h2 {
 
 section#locations address {
      text-align: center;
-     /*margin: -42px;*/
-     padding: 75px;
      font-size: 1.3em;
-     margin-top: 0;
+     margin-top: 1em;
 }
 
 section#locations div {
-	float: left;
-  width: 50%;
-  height: 6em;
-  outline: 3px solid #222;
-  text-align:center;
-  line-height: 6em;
-  color:#000;
-  background: #fff;
+	max-width:1200px;
+	margin:auto;
 }
 
 section#locations h3 {
     /*padding: 20px;*/
-    margin: 41px;
+    /* margin: 41px; */
     text-align: center;
     font-size: 1.7em;
     text-align: center;
@@ -253,8 +254,11 @@ section#locations a {
 	text-decoration: none;
 	color: white;
 	border: 1px solid #fbb942;
-	padding: 20px;
-	margin-left: 5em;
+	padding: 1em;
+	/* margin-left: 5em; */
+	display: block;
+	text-align: center;
+	margin-top: 1em;
 }
 
 section#locations img {
@@ -266,6 +270,7 @@ section#locations section {
 	width:50%;
 	float:left;
 	background-color: rgba(14,8,8,0);
+	padding: 2em;
 }
 section#locations section:first-of-type { clear:both; }
 
@@ -303,7 +308,8 @@ section#catering h3 {
 	text-align: center;
 	letter-spacing: .1em;
 	padding-bottom: 2em;
-	margin-right: 0; 
+	margin-right: 0;
+	clear: both;
 }
 
 section#catering a {
@@ -312,7 +318,7 @@ section#catering a {
      background-color: #fbb942;
      color: white;
      padding: .5em 1em;
-     margin: 1em 25em 6em;
+     /*margin: 1em 25em 6em;*/
      font-weight: bolder; 
 }
 
@@ -392,6 +398,10 @@ section#contact {
 	height: 90vh;
 }
 
+a:hover {
+	background-color: #fbb942;
+}
+
 #contact h2 {
     text-align: right;
 	font-weight: bolder;
@@ -407,6 +417,10 @@ section#contact {
 	text-align: center;
 }
 
+#contact p {
+
+}
+
 footer {
 	background-color: black;
 	border: 1px black solid;
@@ -419,24 +433,25 @@ footer {
 
 footer a {
 	color:white;
+	text-decoration: none;
 }
 
 nav {
 	background-color: rgba(0, 0, 0, 0);
-    border-image-source: initial;
-    border-image-slice: initial;
-    border-image-width: initial;
-    border-image-outset: initial;
-    border-image-repeat: initial;
-    float: left;
-    width: 100%;
-    text-align: center;
-    word-spacing: 0.2em;
-    border: 1px solid black;
-    margin: 1em;
-    padding: 0.5em;
-    font-size: 1.5em;
-}  
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	float: left;
+	width: 100%;
+	text-align: center;
+	word-spacing: 0.2em;
+	border: 1px solid black;
+	margin: 1em 0;
+	/*padding: 0.5em;*/
+	font-size: 1.3em;
+} 
 
 p {
 	font-weight: black;
@@ -459,6 +474,7 @@ nav a {
    text-decoration: none;
    opacity: 6;
    display: inline-block;
+   padding: 1em;
 }
 
 ul {
@@ -467,9 +483,9 @@ ul {
 	list-style-type: none;
 }
 
-@media (min-width : 900px) {
-  .menu {
-    font-size: 1.2em;
+@media (max-width:830px) {
+  #locations section {
+  	float: none;
   }
   .column {
   	float: left;
@@ -483,41 +499,73 @@ ul {
     font-size: 1.375rem;
     line-height: 1em;
   }
+
+  nav {
+  	clear: all;
+  	background-color: rgba(0, 0, 0, 0);
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	/*float: left;*/
+	width: 100%;
+	text-align: center;
+	word-spacing: 0.2em;
+	border: 1px solid black;
+	/*margin: 1em 0;*/
+	/*padding: 0.5em;*/
+	font-size: 1.3em;
+  }
 }
 
-@media (min-width : 768px) {
-  .menu {
-    font-size: 1.2em;
-  } 
+@media (max-width:561px) {
 
   #catering h3 {
   	text-align: center;
   }
 
+.column {
+	float: none;
+	display: block;
+	width: auto;
+}
+
 
 .menu {
-  padding: 0.5em;
+  padding:0.5em;
   background: #eee;
   min-height: 2em;
   line-height: 1em;
 
 }
+}
+@media (max-width:830px) {
+  #locations section {
+  	float:none;
+  	width:auto;
+  	display:block
+  	font-size:.5em;
+  	clear: all;
+  }
 
-@media (max-width : 380px) {
-  #locations a {
-  	float: none;
-  	width: auto;
-  	background-color: red;
-   
+  #logo {
+  	float: left;
+  }
+
+  #catering a {
+  	width:auto;
+  	text-decoration: none;
+	color: white;
+	border: 1px solid #fbb942;
+	padding: 1em;
+	/* margin-left: 5em; */
+	display: block;
+	text-align: center;
+	margin-top: 1em;
   }
 
   #catering h3 {
   	text-align: center;
   }
- } 
-
-.menu {
-  padding: 0.5em;
-  background: #eee;
-  min-height: 2em;
-  line-height: 1em;
+ }*/
