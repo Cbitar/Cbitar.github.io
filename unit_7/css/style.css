@@ -20,10 +20,6 @@ header {
 	letter-spacing: .5em;
 }
 
-.box-shadow-menu {
-	position: relative;
-	padding-left: 1.25em;
-}
 
 /*.clearfix:after {
 	visibility: hidden;
@@ -90,7 +86,11 @@ section#splash2 h2 {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	display: inline-block;
+<<<<<<< HEAD
 	/* overflow: auto;*/
+=======
+	/* overflow: auto; */
+>>>>>>> origin/master
 	line-height: 1.2em;
 	/* width: 80%;
     outline-width: .5em;
@@ -254,7 +254,11 @@ section#locations a {
 	text-decoration: none;
 	color: white;
 	border: 1px solid #fbb942;
+<<<<<<< HEAD
 	padding: 1em;
+=======
+	padding: 20px;
+>>>>>>> origin/master
 	/* margin-left: 5em; */
 	display: block;
 	text-align: center;
@@ -449,9 +453,15 @@ nav {
 	word-spacing: 0.2em;
 	border: 1px solid black;
 	margin: 1em 0;
+<<<<<<< HEAD
 	/*padding: 0.5em;*/
 	font-size: 1.3em;
 } 
+=======
+	padding: 0.5em;
+	font-size: 1.5em;
+}  
+>>>>>>> origin/master
 
 p {
 	font-weight: black;
@@ -483,9 +493,15 @@ ul {
 	list-style-type: none;
 }
 
+<<<<<<< HEAD
 @media (max-width:830px) {
   #locations section {
   	float: none;
+=======
+@media (max-width:900px) {
+  .menu {
+    font-size: 1.2em;
+>>>>>>> origin/master
   }
   .column {
   	float: left;
@@ -518,8 +534,12 @@ ul {
 	font-size: 1.3em;
   }
 }
-
+/*
+<<<<<<< HEAD
 @media (max-width:561px) {
+=======
+@media (max-width:768px) {
+>>>>>>> origin/master
 
   #catering h3 {
   	text-align: center;
@@ -540,6 +560,7 @@ ul {
 
 }
 }
+<<<<<<< HEAD
 @media (max-width:830px) {
   #locations section {
   	float:none;
@@ -563,9 +584,21 @@ ul {
 	display: block;
 	text-align: center;
 	margin-top: 1em;
+=======
+@media (max-width : 380px) {
+  #locations a {
+  	float: none;
+  	width: auto;
+  	background-color: red;
+   
+>>>>>>> origin/master
   }
 
   #catering h3 {
   	text-align: center;
   }
+<<<<<<< HEAD
  }*/
+=======
+ } 
+>>>>>>> origin/master*/
