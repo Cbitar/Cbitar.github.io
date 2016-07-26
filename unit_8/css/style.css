@@ -437,17 +437,6 @@ a:hover {
 	margin-top: 1em;
 }
 
-.social {
-	text-decoration: none;
-	color: white;
-	border: 1px solid #fbb942;
-	padding: 1em;
-	/* margin-left: 5em; */
-	display: block;
-	text-align: center;
-	margin-top: 1em;
-}
-
 footer {
 	background-color: black;
 	border: 1px black solid;
