@@ -7,7 +7,7 @@
 body {
     font-size:20px;
     font-family: 'Cabin Sketch', cursive;
-    color: white;
+    color: black;
     margin: 0 auto;
 }
 
@@ -292,25 +292,25 @@ section#farm section {
 }
 section#farm section:first-of-type { clear:both; }
 
-section#catering {
+section#product {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding: 20px;
 	text-align: center;
 	height: 100vh;
 	color: white;
-	background-image: url("http://blackhouse.uk.com/images/index-background.jpg");
+	background-image: url("http://res.cloudinary.com/nsmedia/image/upload/v1466651463/cotton-candy_tpjl0v.jpg" alt="Cotton Candy Cannabis Strain");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 
-section#catering img {
+section#product img {
 	float: left;
 	width: 15%;
 	margin-top: 0;
 }
 
-section#catering h2 {
+section#product h2 {
     background-color: rgba(0,0,0,0);
 	border: none;
 	padding: 20px;
@@ -321,7 +321,7 @@ section#catering h2 {
 	letter-spacing: .3em;
 }
 
-section#catering h3 {
+section#product h3 {
 	margin-top: 7em;
 	text-align: center;
 	letter-spacing: .1em;
@@ -330,10 +330,10 @@ section#catering h3 {
 	clear: both;
 }
 
-section#catering a {
+section#product a {
      display: inline-block;
      text-decoration: none;
-     background-color: #fbb942;
+     background-color: #6d8726;
      color: white;
      padding: .5em 1em;
      /*margin: 1em 25em 6em;*/
@@ -513,7 +513,7 @@ ul {
     margin: 2px .25%;
     padding-top: 0.5em;
   }
-  #catering a {
+  #product a {
     font-size: 22px;
     font-size: 1.375rem;
     line-height: 1em;
@@ -535,6 +535,7 @@ ul {
 	/*margin: 1em 0;*/
 	/*padding: 0.5em;*/
 	font-size: 1.3em;
+	color: black;
   }
 
   nav a {
@@ -549,7 +550,7 @@ ul {
 
 @media (max-width:561px) {
 
-  #catering h3 {
+  #product h3 {
   	text-align: center;
   }
 
@@ -587,7 +588,7 @@ ul {
   	float: left;
   }
 
-  #catering a {
+  #product a {
   	width:auto;
   	text-decoration: none;
 	color: white;
@@ -599,7 +600,7 @@ ul {
 	margin-top: 1em;
   }
 
-  #catering h3 {
+  #product h3 {
   	text-align: center;
   }
  }
