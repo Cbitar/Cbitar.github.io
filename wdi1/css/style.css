@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://fonts.googleapis.com/css?family=Lemonada);
+
+body {
+  background: url('http://www.johnharveyphoto.com/WinterHarbourToBrooks/GrassyPlainAboveMarshHg.jpg');
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+header {
+  height: 530px;
+  background-image: url(http://static5.depositphotos.com/1001102/506/i/950/depositphotos_5061210-Dog-treats.jpg);
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Lemonada', cursive;
+  font-size: 3em;
+  text-shadow: 0px 2px 3px #555;
+  color: white;
+}
+
+header h3 {
+  margin-top: -25px;
+  color: white;
+}
+
+h4, a {
+  text-decoration: none;
+  /*text-align: center;*/
+  font-size: 1em;
+}
+
+ul {
+  font-size: 1.2em;
+  padding: 5px;
+
+}
+
+div h4 {
+  text-align: center;
+  font-size: 1.4em;
+  top: 20px;
+}
+
+main {
+  height: 450px;
+  background-color: rgba(173, 216, 230, .5);
+}
+
+footer {
+  background-color: rgba(173, 216, 230, .5);
+  height: 125px;
+  border-radius: 25px;
+}
+
+footer h3 {
+  -webkit-text-stroke: .01px black;
+  color: #2196F3;
+ /* text-shadow: 0px 3px 2px #444;*/
+  padding: 10px 0px 0px 10px;
+  text-decoration: none;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5e
+}
+
+img {
+  border-radius: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 8px 10px #555;
+}
+
+.box {
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 25px;
+  box-shadow: 0px 8px 10px #555;
+}
+
+main h3 {
+  color: white;
+  padding: 5px 0 5px 20px;
+  text-align: center;
+}
+
+main article {
+  padding-left: 20px;
+  width: 90%;
+}
+
+u {
+  text-decoration: none;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+li {
+  list-style-type: none;
+  text-align: center;
+}
+
+ol {
+  /*margin-left: 450px*/
+  text-align: center;
+}
+
+.increase-bottom {
+  margin-bottom: 20px;
+}

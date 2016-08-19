@@ -1,33 +1,34 @@
-header {
-	background-color: white;
+body {
+  font-family: "Lucida Grande";
+  margin: 15px;
 }
 
 h1 {
-	color: rgb(2,132,130);
+  text-align: center;
 }
 
-h2 {
-	color: #ffd700;
+div {
+  color: blue;
 }
 
-.board {
-	height: 80%;
-	width: 50%;
-	display: inline-block;
+#comments-title {
+  font-size: 28px;
 }
 
-.card {
-	height: 200px;
-	width: 150px;
-	border: 1px black solid;
-	background-color: yellow;
-	border-radius: 10px; 
+li.super-cool {
+  border: solid 2px red;
 }
 
-.name {
-	color: #ff0000
+div.crazy.super-cool p {
+  background-color: yellow;
 }
 
-footer {
-	text-align: center;
+li:hover {
+  cursor: pointer;
+  font-size: 40px;
+  color: red;
+}
+
+#comments-title:first-letter {
+  font-size:60px;
 }

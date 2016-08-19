@@ -150,7 +150,7 @@ section#about {
 }
 
 #about h2 {
-	text-align: right;
+	text-align: center;
 	font-weight: bolder;
 	text-transform: uppercase;
 	letter-spacing: .3em;
@@ -159,6 +159,8 @@ section#about {
 	background-image: url("http://blackhouse.uk.com/images/gallery/P10278%20Blackhouse%20Food%20234-Final%20Web%20Res%20JPG%201.jpg");
 	background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+
 }
 
 section#about img {
