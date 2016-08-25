@@ -48,7 +48,7 @@ section#splash {
 section#splash  {
 	background-color: black;
 	border: 1px black solid;
-	padding: 1em; 
+	padding: 1em;
 }
 
 section#splash2 {
@@ -258,7 +258,7 @@ section#locations h3 {
      padding: 2em;
      width: 80%;
      margin-left: 1em;
-     
+
 }*/
 
 section#locations a {
@@ -330,7 +330,7 @@ section#catering a {
      color: white;
      padding: .5em 1em;
      /*margin: 1em 25em 6em;*/
-     font-weight: bolder; 
+     font-weight: bolder;
 }
 
 section#menu {
@@ -484,7 +484,7 @@ nav {
 	margin: 1em 0;
 	/*padding: 0.5em;*/
 	font-size: 1.3em;
-} 
+}
 
 p {
 	font-weight: black;
@@ -515,6 +515,39 @@ ul {
 	font-weight: black;
 	list-style-type: none;
 }
+
+
+
+.menu-btn div {
+  position: absolute;
+  left: 100%;
+  top: 64%;
+  padding-right: 8px;
+  margin-top: -0.50em;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  z-index: 99;
+}
+
+.menu-btn span {
+  display: block;
+  width: 19px;
+  height: 3px;
+  margin: 4px 0;
+  background: rgb(0,0,0);
+  z-index: 99;
+}
+
+.responsive-menu{
+  display: none;
+}
+
+.expand {
+  display: block !important;
+}
+
 @media only screen and (max-width:850px) {
   #locations section {
   	float:none;
@@ -541,8 +574,8 @@ ul {
 	display: block;
 	width: auto;
   }
-}  
- 
+}
+
  @media only screen and (max-width:832px) {
 
   #catering a {
@@ -620,7 +653,7 @@ ul {
 	width: auto;
 }
 
- 
+
   section#locations section {
   	width: 100%;
   	font-size: .7em;
@@ -635,7 +668,7 @@ ul {
   background: #eee;
   min-height: 2em;
   line-height: 1em;
-  } 
+  }
 }
 
 
