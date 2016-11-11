@@ -20,9 +20,21 @@ header {
 	letter-spacing: .5em;
 }
 
+.navbar-header img {
+    vertical-align: middle;
+    width: 90px;
+    padding-left: 29px;
+    margin-top: -7px;
+}
+
 .box-shadow-menu {
 	position: relative;
 	padding-left: 1.25em;
+}
+
+.navbar {
+    background-color: #070607;
+    border-color: #fbb942;
 }
 
 .clearfix:after {
@@ -43,6 +55,10 @@ section#splash {
 	text-align: center;
 	/*padding: 2em 0 0;*/
 	bottom: 14em;
+}
+
+section#splash img {
+  padding-top: 185px;
 }
 
 section#splash  {
@@ -156,9 +172,9 @@ section#about {
 	letter-spacing: .3em;
 	padding: 150px;
 	border: 1px black solid;
-	background-image: url("http://blackhouse.uk.com/images/gallery/P10278%20Blackhouse%20Food%20234-Final%20Web%20Res%20JPG%201.jpg");
+/*	background-image: url("http://blackhouse.uk.com/images/gallery/P10278%20Blackhouse%20Food%20234-Final%20Web%20Res%20JPG%201.jpg");
 	background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
     margin: 0;
 
 }
@@ -300,7 +316,7 @@ section#catering {
 section#catering img {
 	float: left;
 	width: 15%;
-	margin-top: 0;
+	margin-top: 35px;
 }
 
 section#catering h2 {
@@ -326,11 +342,10 @@ section#catering h3 {
 section#catering a {
      display: inline-block;
      text-decoration: none;
-     background-color: #fbb942;
      color: white;
      padding: .5em 1em;
-     /*margin: 1em 25em 6em;*/
      font-weight: bolder;
+     border: none;
 }
 
 section#menu {
@@ -388,7 +403,6 @@ h1 {
 }
 
 #gcard > img {
-    /* width: 100px; */
     bottom: 15em;
     right: 0;
     float: right;
@@ -398,19 +412,15 @@ section#contact {
 	background-image: url("http://blackhouse.uk.com/images/slide-background/chester-1.jpg");
 	border: 1px black solid;
 	padding: 0;
-	/*text-align: right;
-	height: 90vh;
-	display: inline;
-	margin-left: 3em;
-	background-image: url(http://blackhouse.uk.com/images/contact-tab-1.png);
-	*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 90vh;
 }
 
 a:hover {
-	background-color: #fbb942;
+	/*background-color: #fbb942;*/
+  text-decoration: none;
+  color: #fbb942;
 }
 
 #contact h2 {
@@ -437,7 +447,6 @@ a:hover {
 	color: white;
 	border: 1px solid #fbb942;
 	padding: 1em;
-	/* margin-left: 5em; */
 	display: block;
 	text-align: center;
 	margin-top: 1em;
@@ -449,19 +458,16 @@ a:hover {
 }
 
 #contact img {
-	width: 10%;
-	margin-left: 7em;
-	float: left;
+    width: 10%;
+    padding: 25px;
+    /*margin-left: 12em;*/
+/*    float: left;*/
 }
 
 footer {
 	background-color: black;
 	border: 1px black solid;
 	padding: 20px;
-    /*background-color:#000;
-    width: 100%;
-    color: #fff;
-    display: block;*/
 }
 
 footer a {
@@ -471,34 +477,23 @@ footer a {
 
 nav {
 	background-color: rgba(0, 0, 0, 0);
-	border-image-source: initial;
-	border-image-slice: initial;
-	border-image-width: initial;
-	border-image-outset: initial;
-	border-image-repeat: initial;
+
 	float: left;
 	width: 100%;
 	text-align: center;
 	word-spacing: 0.2em;
-	border: 1px solid black;
-	margin: 1em 0;
-	/*padding: 0.5em;*/
-	font-size: 1.3em;
+	font-size: 1em;
 }
 
 p {
 	font-weight: black;
 	line-height: 1.2;
 }
-
-/*.wrapper {
-    text-align: justify;
-    position: relative;
-    width:1200px;
-    margin: auto;
-    padding: 0 20px;
-    box-sizing: border-box;
-}*/
+.btn-warning {
+    color: #fff;
+    background-color: #fbb841;
+    border-color: #eea236;
+}
 
 nav a {
    color: white;
@@ -540,6 +535,38 @@ ul {
   z-index: 99;
 }
 
+.parallax {
+  background-image: url("/images/road.jpg");
+  height: 700px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .9;
+}
+
+#about {
+    background-color: #181818;
+    color: #F7F7EF;
+    height: 300px;
+}
+
+/*.icons {
+  margin-bottom: 25px;
+}*/
+
+.imgIcons {
+  margin-left: 34%;
+}
+
+.learn {
+  width: 50%;
+}
+
+.intro {
+  text-align: center;
+}
+
 .responsive-menu{
   display: none;
 }
@@ -566,7 +593,7 @@ ul {
   #logo {
   	float: left;
   }
-
+}
 
 @media only screen and (max-width: 892px) {
 	.column {
@@ -584,7 +611,6 @@ ul {
 	color: white;
 	border: 1px solid #fbb942;
 	padding: 1em;
-	/* margin-left: 5em; */
 	display: block;
 	text-align: center;
 	margin-top: 1em;
@@ -616,19 +642,7 @@ ul {
   	clear: both;
   	background-color: rgba(0, 0, 0, 0);
   	display: inline;
-	/*border-image-source: initial;
-	border-image-slice: initial;
-	border-image-width: initial;
-	border-image-outset: initial;
-	border-image-repeat: initial;
-	float: left;
-	display: block;
-	text-align: center;
-	word-spacing: 0.2em;
-	/*border: 1px solid black;*/
-	/*margin: 1em 0;*/
-	/*padding: 0.5em;*/
-	font-size: 1.3em;*/
+	  font-size: 1.4em;
   }
 
   nav a {
@@ -671,39 +685,3 @@ ul {
   }
 }
 
-
-/*@media (max-width:850px) {
-  #locations section {
-  	float:none;
-  	width:auto;
-  	display:block
-  	font-size:.5em;
-  	clear: all;
-  }
-
-  .column {
-	float: none;
-	display: block;
-	width: auto;
-}
-
-  #logo {
-  	float: left;
-  }
-
-  #catering a {
-  	width:auto;
-  	text-decoration: none;
-	color: white;
-	border: 1px solid #fbb942;
-	padding: 1em;
-	/* margin-left: 5em; */
-/*	display: block;
-	text-align: center;
-	margin-top: 1em;
-  }
-
-  #catering h3 {
-  	text-align: center;
-  }
- }*/
